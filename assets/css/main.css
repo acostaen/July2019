@@ -1,0 +1,303 @@
+/*
+Author: Nessio
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/* Color Pallet */
+
+.bg-primary {
+  background-color: #921224;
+  color: #ebf5ee;
+}
+.bg-secondary {
+  background-color: #bce0da;
+  color: #921224;
+}
+.bg-light {
+  background-color: #ebf5ee;
+  color: #921224;
+}
+.bg-dark {
+  background-color: #bdc6b8;
+  color: #921224;
+}
+
+.bg-black {
+  background-color: #101010;
+}
+
+.text-primary {
+  color: #921224;
+}
+.text-secondary {
+  color: #bce0da;
+}
+.text-light {
+  color: #ebf5ee;
+}
+.text-dark {
+  color: #bdc6b8;
+}
+
+
+/*-- Elements --*/
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+li {
+  padding: 5px;
+}
+
+nav {
+  width: 100%;
+
+  padding: 15px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+nav ul {
+    position: relative;
+  display: inline-block;
+  height: 100% ;
+  list-style: none;
+  overflow: hidden;
+  padding: 5px;;
+  }
+
+nav ul li {
+  display: inline;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin: 10px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ebf5ee
+}
+
+p {
+  line-height: 2rem;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+
+
+section .heading {
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+
+/* #id */
+
+
+#beer-serving{
+  background-image: url('/assets/images/beer3.jpg');
+  position: relative; 
+  background-size: cover; 
+  background-position: center; 
+  height: 25vh; 
+}
+
+
+/* .class */
+
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.copyright {
+  padding: 20px 0px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.hero { 
+  position: relative; 
+  background-image: url("/assets/images/burger1.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  height: 50vh; 
+} 
+
+.img-menu {
+  width: 50%;
+  margin: 20px;
+  border-radius: 200px;
+}
+
+.lg-hidden {
+  display: none;
+}
+
+.list-unstyled {
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+  display: inline;
+  text-transform: capitalize;
+}
+
+.menu-item {
+display: block;
+text-transform: capitalize;
+font-weight: 800;
+font-size: 1.5rem;
+padding: 5px;
+border-top: 1px #921224 solid;
+}
+
+.menu-item-description {
+  text-transform: capitalize;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.menu-item-price {
+  display: block;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  background-color: #921224;
+  margin: auto;
+}
+
+.offset-3 {
+  margin-left: 25%;
+}
+
+.row {
+  display: inline-flex;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ul-address {
+  list-style: none;
+  margin-bottom: 30px
+}
+
+
+
+/* ----------- Tablets  ----------- */
+
+
+/* Portrait and Landscape */
+@media (min-width: 768px) and (max-width: 1078px){
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  nav ul {
+    margin: auto;
+    overflow: auto;
+  }
+
+  nav .col-6 {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+  }
+
+  .container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .md-hidden {
+    display: none;
+  }
+
+  .menu-item-description{
+    display: none;
+  }
+   
+}
+
+
+/* ----------- Phones ----------- */
+
+
+@media (min-width: 50px) and (max-width: 768px) { 
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  nav ul {
+    width: 90%;
+    text-align: center;
+    height: 20px ;
+    margin: auto;
+  }
+
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .col-6 {
+    width: 100%;
+  }
+
+  .offset-3 {
+    margin-left: 0;
+  }
+
+  .sm-hidden {
+    display: none;
+  }
+
+  .row {
+    display: block;
+    width: 100%;    
+  }
+}

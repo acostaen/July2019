@@ -1,23 +1,11 @@
 # Developer Hangout July 2019 Challenge
-## Rules
-1. You are to make a website for Walter's Burgers and Brews, a fake resturant
-2. Your submission must consist of 2 or more pages:
-	- A landing page
-	- A menu page
-3. Submissions are **only** accepted by submitting a [Pull Request](https://help.github.com/en/articles/about-pull-requests) to the source github repo
-	- Submission Deadline is Noon GMT, July 23 2019
-	- Form must be submitted before deadline
-	- Any commits pushed after the deadline will result in disqualification
-4. Sample color palettes and images are provided, you may use them or provide your own
-5. Mobile friendly is strongly suggested
-6. Final submission must be HTML/CSS/JS only! If using a preprocessor include the build steps in your repo docs and the build output in an out directory
-7. Judging will be based primarily on the visual aspect. Code quality will be inspected in case of a tie.
-8. Have fun and do your best!
+## About Me:
+- Discord user ID:
+	- nessio#7261
+- Experience level
+	- I try to contribute about 10-15 hours a month to web application training. Webapp development has been a hobby for about 2 years. Ive skipped about 2 or 3 months at a time because of work and school.
 
-## Instructions
-1. [Fork](https://help.github.com/en/articles/fork-a-repo) this repo
-2. Delete this Readme
-3. Rename sample.README.md to README.md and fill in:
-	- Discord user ID
-	- Experience level (self assessed)
-	- Short summary of your approach to the challenge
+## About the Project:
+This is my first project, "contest" type of project. I need to start pushing myself to do something. Developing any webpage is better than developing nothing. I really enjoy this hobby but because of my time constraints its really difficult. Time passes by and i have to refer to my notes when Im trying to do a webpage.
+
+Since it was a simple project I just worked it on the fly by sections. I first thought about the layout, well a layout I was capable of programming. I browsed a couple of restaurant website but alot of them were pretty complicated and javascript heavy, those looked pretty awesome but wouldve been time consuming for this project. After deciding on a simple layout I did the coding by sections, starting with the navbar. For each section, I started with html code then did the css styling. Being that im stronger at designing for desktop, I did the desktop layout first. Once I was done, I did the responsive layout for tablet viewport size  followed by the phone viewport size.
